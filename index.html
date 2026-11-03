@@ -551,6 +551,7 @@
     .app .pay + .actions { margin-top: 0; }
     .soon-media { display: grid; place-items: center; color: var(--muted); font-family: var(--mono); letter-spacing: .3em; text-transform: uppercase; font-size: 22px;
       background: repeating-linear-gradient(135deg, transparent 0 12px, rgba(230,220,255,.04) 12px 13px), #15122a; }
+    .app-media.soon-media img { width: 72px; height: 72px; object-fit: contain; }
     .tag { display: inline-block; align-self: flex-start; margin-top: auto; padding: var(--space-1) var(--space-3); border: 1px dashed var(--line); border-radius: 999px; color: var(--muted); font-size: var(--small); }
     .app .app-media { width: 100%; align-self: stretch; }
     .app .actions { flex-direction: row; flex-wrap: wrap; align-items: center; gap: var(--space-3); }
@@ -606,6 +607,15 @@
             <div class="app-body">
               <h2 id="loadout-title">Loadout</h2>
               <p>Easy asset management for Resolve.</p>
+              <span class="tag">Coming soon</span>
+            </div>
+          </article>
+
+          <article class="card app" id="crate" aria-labelledby="crate-title">
+            <div class="app-media soon-media" aria-hidden="true"><img src="assets/crate-tray.svg" width="72" height="72" alt=""></div>
+            <div class="app-body">
+              <h2 id="crate-title">Crate</h2>
+              <p>An asset manager for your footage and asset packs.</p>
               <span class="tag">Coming soon</span>
             </div>
           </article>
