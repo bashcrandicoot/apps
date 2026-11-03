@@ -546,7 +546,9 @@
     .app h2 { margin: 0; font-size: 26px; text-align: left; }
     .app .ver { margin-left: var(--space-2); font-family: var(--mono); font-size: var(--small); font-weight: 400; color: var(--muted); }
     .app p { margin: var(--space-2) 0 var(--space-5); color: var(--muted); }
+    .app .pay { margin: auto 0 var(--space-3); }
     .app .actions { justify-content: flex-start; margin: auto 0 0; }
+    .app .pay + .actions { margin-top: 0; }
     .soon-media { display: grid; place-items: center; color: var(--muted); font-family: var(--mono); letter-spacing: .3em; text-transform: uppercase; font-size: 22px;
       background: repeating-linear-gradient(135deg, transparent 0 12px, rgba(230,220,255,.04) 12px 13px), #15122a; }
     .tag { display: inline-block; align-self: flex-start; margin-top: auto; padding: var(--space-1) var(--space-3); border: 1px dashed var(--line); border-radius: 999px; color: var(--muted); font-size: var(--small); }
@@ -592,8 +594,9 @@
             <div class="app-body">
               <h2 id="lodge-title">Lodge<span class="ver">1.0</span></h2>
               <p>Home base for your media. Gets your footage off camera cards safely, checked and neatly named. macOS 14 or later.</p>
+              <p class="pay">Free 3-day trial, then $10</p>
               <div class="actions">
-                <a class="button" href="https://buy.polar.sh/polar_cl_gS9NEtdIPJuJDXu8sdui02XetKbkwKuHgiYxi4FBkM1" data-goatcounter-click="polar-buy">Buy Lodge — $10</a>
+                <a class="button" href="https://pub-dc943f7d0c2042e992edc65b72cb7efe.r2.dev/lodge/Lodge-1.0.dmg" data-goatcounter-click="lodge-trial">Download free trial</a>
                 <a class="button secondary" href="https://bashcrandicoot.github.io/Lodge/">Learn more</a>
               </div>
             </div>
