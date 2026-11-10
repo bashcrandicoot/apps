@@ -10,6 +10,10 @@ It is live at <https://bashfra.me/apps/> and <https://bashcrandicoot.github.io/a
 - **Loadout.** Coming soon.
 - **Crate.** Coming soon.
 
+## Free apps
+
+- **PilotLight.** See when your Mac is busy with a bot. Free and open source.
+
 ## Edit
 
 Edit `index.html` and `assets/` in this repo, then merge to `main`. GitHub Pages publishes <https://bashcrandicoot.github.io/apps/>. <https://bashfra.me/apps/> updates from the hourly sync in the links repo.
