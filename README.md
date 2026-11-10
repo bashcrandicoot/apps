@@ -8,6 +8,7 @@ It is live at <https://bashfra.me/apps/> and <https://bashcrandicoot.github.io/a
 
 - **Lodge.** Mac app, $10 once with a 3-day free trial. Direct download: <https://dl.bashfra.me/lodge/Lodge-1.0.dmg>. Site: <https://bashfra.me/lodge/>.
 - **Loadout.** Coming soon.
+- **PilotLight.** See when your Mac is busy with a bot. Free and open source.
 - **Crate.** Coming soon.
 
 ## Edit
